@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-chrome text-ink font-body; }
+h1,h2,h3 { @apply font-head; }
+:focus-visible { outline: 3px solid #FCA311; outline-offset: 2px; }
